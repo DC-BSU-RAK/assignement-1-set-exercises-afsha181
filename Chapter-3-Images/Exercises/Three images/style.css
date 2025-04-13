@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #d3d3d3c5;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #0a84e9;
+  }
+  
+  img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Filter effect on all images */
+  img {
+    filter: contrast(110%) brightness(90%) saturate(120%);
+    transition: 0.3s ease;
+  }
+  
+  img:hover {
+    filter: none; /* On hover, show original */
+  }
+  
+  figure {
+    margin: 30px auto;
+    width: fit-content;
+  }
+  
+  figcaption {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+
+/* Apply filters to all images inside <figure> tags */
+figure img {
+  filter: 
+    brightness(0.8)        /* Darken the image */
+    contrast(1.2)          /* Increase contrast */
+    grayscale(0.5)         /* Make the image 50% grayscale */
+    blur(2px);             /* Apply a subtle blur */
+  transition: all 0.3s ease;  /* Smooth transition for the filter effect */
+}
+
+/* Optional: Hover effect to change filter on mouse hover */
+figure img:hover {
+  filter: 
+    brightness(1)          /* Reset brightness to normal */
+    contrast(1)            /* Reset contrast to normal */
+    grayscale(0)           /* Remove grayscale */
+    blur(0);               /* Remove blur */
+}
+
+figure img {
+  filter: 
+    hue-rotate(90deg)       /* Rotate the hues */
+    brightness(0.8)
+    contrast(1.2)
+    grayscale(0.5)
+    blur(2px);
+}
+
