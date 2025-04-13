@@ -1,0 +1,43 @@
+/* Basic styling for the recipe page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffcc93;
+  color: #1f1f1f;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 3px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Heading styles */
+h1 {
+  color: #ff0000;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #ff0000;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 1.1em;
+}
+
+/* List styles */
+ul, ol {
+  margin-left: 20px;
+}
+
+ul li, ol li {
+  margin-bottom: 8px;
+}
+
+  
+  
