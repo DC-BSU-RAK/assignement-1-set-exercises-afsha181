@@ -1,0 +1,69 @@
+/* Base styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navigation bar */
+  .navbar {
+    background-color: #0d47a1;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sections */
+  section {
+    padding: 40px 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Headings */
+  h1, h2 {
+    color: #0d47a1;
+  }
+  
+  /* Button Style (link styled as a button) */
+  .btn {
+    background-color: #2196f3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #1976d2;
+  }
+  
+  /* Class example: highlight important info */
+  .highlight {
+    color: #d32f2f;
+    font-weight: bold;
+  }
+  
